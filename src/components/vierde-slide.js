@@ -18,7 +18,7 @@ const VierdeSlide = () => {
     query {
       placeholderImage: file(relativePath: { eq: "4.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000, quality:100) {
+          fluid(maxWidth: 2000, quality:90) {
             ...GatsbyImageSharpFluid
           }
         }

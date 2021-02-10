@@ -18,7 +18,7 @@ const ZesdeSlide = () => {
     query {
       placeholderImage: file(relativePath: { eq: "6.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000, quality:100) {
+          fluid(maxWidth: 2000, quality:90) {
             ...GatsbyImageSharpFluid
           }
         }
