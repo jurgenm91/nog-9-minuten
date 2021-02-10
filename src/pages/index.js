@@ -14,7 +14,7 @@ import "../components/style.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="NOG 9 MINUTEN" />
     <Carousel pause={false} controls={false} indicators={false}>
   <Carousel.Item>
    <LogoSlide/>
