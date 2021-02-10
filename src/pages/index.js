@@ -5,10 +5,12 @@ import YouTubeImage from "../components/youtube"
 import InstagramImage from "../components/instagram"
 import SEO from "../components/seo"
 import Carousel from 'react-bootstrap/Carousel';
-import LogoSlide from '../components/logo-slide'
-import HildeSlide from '../components/hilde-slide'
-import JuttaSlide from '../components/jutta-slide'
-import EviSlide from '../components/evi-slide'
+import EersteSlide from '../components/eerste-slide'
+import TweedeSlide from '../components/tweede-slide'
+import DerdeSlide from '../components/derde-slide'
+import VierdeSlide from '../components/vierde-slide'
+import VijfdeSlide from '../components/vijfde-slide'
+import ZesdeSlide from '../components/zesde-slide'
 
 import "../components/style.css"
 
@@ -17,20 +19,29 @@ const IndexPage = () => (
     <SEO title="NOG 9 MINUTEN" />
     <Carousel pause={false} controls={false} indicators={false}>
   <Carousel.Item>
-   <LogoSlide/>
+   <EersteSlide/>
   </Carousel.Item>
-  <Carousel.Item>
-  <JuttaSlide/>
 
-  
-  </Carousel.Item>
   <Carousel.Item>
-  <EviSlide/>
+  <TweedeSlide/>
   </Carousel.Item>
-  <Carousel.Item>
-    <HildeSlide/>
 
+  <Carousel.Item>
+  <DerdeSlide/>
   </Carousel.Item>
+
+  <Carousel.Item>
+    <VierdeSlide/>
+  </Carousel.Item>
+
+  <Carousel.Item>
+    <VijfdeSlide/>
+  </Carousel.Item>
+
+  <Carousel.Item>
+    <ZesdeSlide/>
+  </Carousel.Item>
+
 </Carousel>
 
     <div className="wrapper" >
@@ -38,9 +49,9 @@ const IndexPage = () => (
       <p className="titel">NOG 9 MINUTEN</p>
      <ul>
      <li className="youtube"> <a href="https://www.youtube.com/channel/UCJpTG0ehUUnPK0z1SAWh-QA"><YouTubeImage /></a></li>
-      <li><p>Beluister op YouTube</p></li>
+      <li><a href="https://www.youtube.com/channel/UCJpTG0ehUUnPK0z1SAWh-QA"><p>Beluister op YouTube</p></a></li>
       <li className="instagram"><a href="https://www.instagram.com/nog_9_minuten/"><InstagramImage /></a></li>
-      <li><p>Volg ons op Instagram</p></li>
+      <li><a href="https://www.instagram.com/nog_9_minuten/"><p className="pInstagram">Volg ons op Instagram</p></a></li>
       </ul>
     </div>
     </div>

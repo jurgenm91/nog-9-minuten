@@ -1,5 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@media only screen and (max-width: 1082px) {
+  .wrapper {
+    bottom: auto !important;
+    position: absolute !important;
+  }
+  #links {
+    background: rgba(162, 134, 69, 0.2) !important;
+    height: 150px !important;
+    max-width: 98.5% !important;
+    margin: 5px !important;
+    margin-bottom: 50px !important;
+  }
+}
+@media only screen and (max-width: 624px) {
+  #links {
+    height: 260px !important;
+  }
+  #links ul {
+    width: 400px !important;
+  }
+  .pInstagram {
+    margin-left: 16px;
+    width: 100px;
+  }
+}
 
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
 .wrapper {
   position: fixed;
   bottom: 5vh;
