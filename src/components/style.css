@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.wrapper {
+  position: fixed;
+  bottom: 5vh;
+  width: 100%;
+}
+#links {
+  background: rgba(255, 255, 255, 0.205);
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  z-index: 10;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
+  height: 150px;
+}
+@supports (
+  not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))
+) {
+  #links {
+    background: rgba(255, 255, 255, 0.205);
+  }
+}
+
+#links ul {
+  list-style: none;
+}
+#links li {
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+#links li:last-child {
+  margin-right: 0px;
+}
+.titel {
+  position: absolute;
+  top: -30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.instagram {
+  max-width: 80px;
+}
