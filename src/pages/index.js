@@ -1,5 +1,6 @@
 import React from "react"
 
+
 import Layout from "../components/layout"
 import YouTubeImage from "../components/youtube"
 import InstagramImage from "../components/instagram"
@@ -16,6 +17,7 @@ import "../components/style.css"
 
 const IndexPage = () => (
   <Layout>
+
     <SEO title="NOG 9 MINUTEN" />
     <Carousel pause={false} controls={false} indicators={false}>
   <Carousel.Item>
@@ -50,8 +52,8 @@ const IndexPage = () => (
      <ul>
      <li className="youtube"> <a href="https://www.youtube.com/channel/UCJpTG0ehUUnPK0z1SAWh-QA"><YouTubeImage /></a></li>
       <li><a href="https://www.youtube.com/channel/UCJpTG0ehUUnPK0z1SAWh-QA"><p>Beluister op YouTube</p></a></li>
-      <li className="instagram"><a href="https://www.instagram.com/nog_9_minuten/"><InstagramImage /></a></li>
-      <li><a href="https://www.instagram.com/nog_9_minuten/"><p className="pInstagram">Volg ons op Instagram</p></a></li>
+      <li className="instagram"><a href="https://www.instagram.com/nog.9.minuten/"><InstagramImage /></a></li>
+      <li><a href="https://www.instagram.com/nog.9.minuten/"><p className="pInstagram">Volg ons op Instagram</p></a></li>
       </ul>
     </div>
     </div>

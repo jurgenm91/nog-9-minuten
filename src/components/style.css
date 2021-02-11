@@ -15,13 +15,19 @@
 @media only screen and (max-width: 624px) {
   #links {
     height: 260px !important;
+    width: 97% !important;
   }
   #links ul {
     width: 400px !important;
   }
   .pInstagram {
-    margin-left: 16px;
+    margin-left: 19px;
     width: 100px;
+  }
+}
+@media only screen and (max-width: 449px) {
+  #links ul {
+    width: 300px !important;
   }
 }
 
