@@ -2,7 +2,7 @@
 @media only screen and (max-width: 1082px) {
   .wrapper {
     bottom: auto !important;
-    position: absolute !important;
+    position: sticky !important;
   }
   #links {
     background: rgba(162, 134, 69, 0.2) !important;
@@ -11,10 +11,23 @@
     margin: 5px !important;
     margin-bottom: 50px !important;
   }
+  .fotb {
+    top: -10px !important;
+    background: rgba(162, 134, 69, 0.2) !important;
+    max-width: 98.5% !important;
+    margin: 5px !important;
+  }
+  .footer {
+    top: -10px !important;
+  }
 }
 @media only screen and (max-width: 624px) {
   #links {
     height: 260px !important;
+    width: 97% !important;
+  }
+  .fotb {
+    height: auto !important;
     width: 97% !important;
   }
   #links ul {
@@ -44,12 +57,12 @@ a:visited {
   text-decoration: none;
 }
 .wrapper {
-  position: fixed;
+  position: sticky;
   bottom: 5vh;
   width: 100%;
 }
 #links {
-  background: rgba(255, 255, 255, 0.205);
+  background: rgba(150, 126, 126, 0.205);
   max-width: 700px;
   padding: 20px;
   border-radius: 10px;
@@ -61,13 +74,6 @@ a:visited {
   text-shadow: 1px 1px 2px black;
   font-weight: 400;
   height: 150px;
-}
-@supports (
-  not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))
-) {
-  #links {
-    background: rgba(255, 255, 255, 0.205);
-  }
 }
 
 #links ul {
@@ -91,4 +97,51 @@ a:visited {
 }
 .instagram {
   max-width: 80px;
+}
+body {
+  background: rgba(162, 134, 69, 0.2);
+}
+.copyright {
+  text-align: center;
+
+  font-size: 12px;
+}
+.fotb {
+  top: 50px;
+  background: rgba(150, 126, 126, 0.205);
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  z-index: 10;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
+  height: auto;
+}
+.footer {
+  top: 50px;
+  font-size: 15px;
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 10;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
+  height: auto;
+}
+@supports (
+  not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))
+) {
+  #links {
+    background: rgba(221, 209, 209, 0.205);
+  }
+  .fotb {
+    background: rgba(221, 209, 209, 0.205);
+  }
 }

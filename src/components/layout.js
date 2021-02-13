@@ -7,8 +7,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react"
 import PropTypes from "prop-types"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import "./layout.css"
+import "./style.css"
 
 const Layout = ({ children }) => {
 
@@ -19,6 +23,16 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         
       </div>
+      <footer>
+        <Container className="footer">
+        <Row>
+        <Col md>&copy; {new Date().getFullYear()} - NOG NEGEN MINUTEN</Col>
+        </Row>
+        <Row>
+        <Col md>Webdesign: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfa3ZIMHrfMJm-eSwF8SeGiG_pJ_ZsWRdRCgXGj58SvYwRTpA/viewform">Jürgen Muls</a></Col>
+          </Row>
+          </Container>
+        </footer>
     </>
   )
 }

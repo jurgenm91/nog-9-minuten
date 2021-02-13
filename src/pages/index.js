@@ -12,6 +12,7 @@ import DerdeSlide from '../components/derde-slide'
 import VierdeSlide from '../components/vierde-slide'
 import VijfdeSlide from '../components/vijfde-slide'
 import ZesdeSlide from '../components/zesde-slide'
+import Fotb from '../components/fotb'
 
 import "../components/style.css"
 
@@ -57,7 +58,7 @@ const IndexPage = () => (
       </ul>
     </div>
     </div>
-    
+    <Fotb/>
   </Layout>
 )
 
