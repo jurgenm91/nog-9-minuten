@@ -121,6 +121,9 @@ body {
   font-weight: 400;
   height: auto;
 }
+.link {
+  margin-left: 1.45rem;
+}
 .footer {
   top: 50px;
   font-size: 15px;

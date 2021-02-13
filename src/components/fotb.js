@@ -13,8 +13,8 @@ class Fotb extends Component {
         <Col sm className="titel">FRIENDS OF THE BRAND</Col>
       </Row>
         <Row>
-        <Col md><a href="https://open.spotify.com/artist/5gxCZXXCHpwrqcCJxq0VhJ">Patrick Hamilton</a></Col>
-        <Col md><a href="https://www.kurtstallaert.com/">Kurt Stallaert</a></Col>
+        <Col md className="link"><a href="https://open.spotify.com/artist/5gxCZXXCHpwrqcCJxq0VhJ">Patrick Hamilton</a></Col>
+        <Col md className="link"><a href="https://www.kurtstallaert.com/">Kurt Stallaert</a></Col>
       </Row>
       </Container> 
     );
