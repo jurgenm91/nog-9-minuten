@@ -28,9 +28,6 @@ const Layout = ({ children }) => {
         <Row>
         <Col md>&copy; {new Date().getFullYear()} - NOG NEGEN MINUTEN</Col>
         </Row>
-        <Row>
-        <Col md>Webdesign: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfa3ZIMHrfMJm-eSwF8SeGiG_pJ_ZsWRdRCgXGj58SvYwRTpA/viewform">Jürgen Muls</a></Col>
-          </Row>
           </Container>
         </footer>
     </>

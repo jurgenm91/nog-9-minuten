@@ -123,7 +123,9 @@ body {
 }
 .link {
   margin-left: 1.45rem;
+  padding: 20px;
 }
+
 .footer {
   top: 50px;
   font-size: 15px;
