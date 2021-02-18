@@ -46,7 +46,6 @@ const IndexPage = () => (
   </Carousel.Item>
 
 </Carousel>
-
     <div className="wrapper" >
     <div id="links" className="container">
       <p className="titel">NOG 9 MINUTEN</p>

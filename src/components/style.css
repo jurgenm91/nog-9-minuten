@@ -140,6 +140,7 @@ body {
   font-weight: 400;
   height: auto;
 }
+
 @supports (
   not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))
 ) {
