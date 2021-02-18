@@ -24,7 +24,7 @@ class Fotb extends Component {
          </Row>
          <Row>
            <Col md className="link">August Antwerpen hotel</Col>
-           <Col md className="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa3ZIMHrfMJm-eSwF8SeGiG_pJ_ZsWRdRCgXGj58SvYwRTpA/viewform">Jürgen Muls (webdesign)</a></Col>
+           <Col md className="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa3ZIMHrfMJm-eSwF8SeGiG_pJ_ZsWRdRCgXGj58SvYwRTpA/viewform">Jürgen Muls webdesign</a></Col>
            <Col md className="link"></Col>
          </Row>
  
