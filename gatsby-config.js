@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Nog 9 minuten`,
+    description: `Van 1 tot 21 maart 2021, dagelijkse meditaties ingesproken door Evi Hanssen, Jutta Borms en Hilde De Baerdemaeker met muziek door Patrick Hamilton`,
+    author: `Jürgen Muls`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

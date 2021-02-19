@@ -13,12 +13,12 @@ import VierdeSlide from '../components/vierde-slide'
 import VijfdeSlide from '../components/vijfde-slide'
 import ZesdeSlide from '../components/zesde-slide'
 import Fotb from '../components/fotb'
+import Handschrift from '../components/handschrift'
 
 import "../components/style.css"
 
 const IndexPage = () => (
   <Layout>
-
     <SEO title="NOG 9 MINUTEN" />
     <Carousel pause={false} controls={false} indicators={false}>
   <Carousel.Item>
@@ -45,9 +45,11 @@ const IndexPage = () => (
     <ZesdeSlide/>
   </Carousel.Item>
 
-</Carousel>
+</Carousel> 
+ <Handschrift />
     <div className="wrapper" >
     <div id="links" className="container">
+     
       <p className="titel">NOG 9 MINUTEN</p>
      <ul>
      <li className="youtube"> <a href="https://www.youtube.com/channel/UCJpTG0ehUUnPK0z1SAWh-QA"><YouTubeImage /></a></li>
